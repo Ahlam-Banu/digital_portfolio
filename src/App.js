@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Outlet, Link, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 import About from './Components/About/about'
 import Home from './Components/Home/home'
 import Portfolio from './Components/Portfolio/portfolio';
@@ -34,12 +34,12 @@ const App = () => {
         </main>
         <footer>
           <div className="social-icons">
-            <a href="https://www.linkedin.com/in/ahlam-banu-2208401a3/"><img src={linkedInIcon} alt="LinkedIn" style={{ width: '20px', height: '20px' }} /></a>
-            <a href="https://github.com/Ahlam-Banu"><img src={GHicon} alt="GitHub" style={{ width: '20px', height: '20px' }} /></a>
-            <a href="mailto:ahlambanu.univ@gmail.com"><img src={emailIcon} alt="E-mail" style={{ width: '20px', height: '20px' }} /></a>
-            <a href="https://www.facebook.com/"><img src={FBicon} alt="Facebook" style={{ width: '20px', height: '20px' }} /></a>
+            <a href="https://www.linkedin.com/in/ahlam-banu-2208401a3/"><img src={linkedInIcon} alt="LinkedIn" /></a>
+            <a href="https://github.com/Ahlam-Banu"><img src={GHicon} alt="GitHub" /></a>
+            <a href="mailto:ahlambanu.univ@gmail.com"><img src={emailIcon} alt="E-mail"/></a>
+            <a href="https://www.facebook.com/"><img src={FBicon} alt="Facebook" /></a>
           </div>
-          <p>&copy; 2023 All rights reserved.</p>
+          <p>&copy; 2024 All rights reserved.</p>
         </footer>
       </div>
     </Router>

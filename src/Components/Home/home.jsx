@@ -1,5 +1,6 @@
 import React from 'react';
 import myPic from '../../images/MyPic.jpg';
+import '../Home/home.css';
 
 const Home = () => {
   return (

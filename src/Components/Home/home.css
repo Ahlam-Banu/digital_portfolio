@@ -1,0 +1,54 @@
+  
+  main {
+    padding: 5px;
+  }
+
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ellipse {
+    position: absolute;
+    left: 380px;
+    top: 80px;
+    width: 165px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .AboutMe {
+    position: absolute;
+    right: 310px;
+    bottom: 255px;
+    font-family: "Pacifico, 'Segoe UI', monospace";
+    font-size: 17px;
+  }
+
+  .circle-button {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    right: 300px;
+    bottom: 285px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .arrow {
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    transform: rotate(45deg);
+  }

@@ -24,8 +24,8 @@ const About = () => {
             to demonstrate.
           </p>
           <div className="center-container">
-            <h1 style={{ fontSize: '70px', position: 'absolute', left: '450px', top: '210px', fontWeight: 'normal' }}>ABOUT ME</h1>
-            <img src={secondPic} alt="Second" style={{ width: '255px', height: '378px' }} />
+            <h1 style={{ fontSize: '82px', position: 'absolute', top: '210px', fontWeight: 'normal' }}>ABOUT ME</h1>
+            <img src={secondPic} alt="Second" style={{ width: '363px', height: '525px' }} />
           </div>
           <a href="portfolio.jsx">
             <div className="BigEllipse">
