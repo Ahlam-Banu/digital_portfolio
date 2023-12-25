@@ -8,9 +8,13 @@ import linkedInIcon from './icons/linkedin.png';
 import FBicon from './icons/facebook.png';
 import emailIcon from './icons/email.png';
 import GHicon from './icons/github.png';
-const CV = '/CV_Ahlam.pdf';
+import CV from './docs/CV_Ahlam.pdf';
 
 const App = () => {
+  const footerTextStyle = {
+    fontSize: 'inherit',
+    fontFamily: 'Arial, sans-serif',
+  };
   return (
     <Router>
       <div className="App">
@@ -21,16 +25,16 @@ const App = () => {
               <li><Link to="/home">Home</Link></li>
               <li><Link to="/about">About</Link></li>
               <li><Link to="/portfolio">Portfolio</Link></li>
-              <li className="right underline"><a href={CV} target="_blank" rel="noopener noreferrer">Download CV</a></li>
+              <li className="right underline"><a href={CV} download>Download CV</a></li>
             </ul>
           </nav>
         </header>
         <main>
-          <Routes> {/* Add the Routes component here */}
+          <Routes>
             <Route path="/home" exact element={<Home />} /> {/* Wrap Route inside Routes */}
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
-          </Routes> {/* Close the Routes component */}
+          </Routes>
         </main>
         <footer>
           <div className="social-icons">
@@ -39,7 +43,7 @@ const App = () => {
             <a href="mailto:ahlambanu.univ@gmail.com"><img src={emailIcon} alt="E-mail"/></a>
             <a href="https://www.facebook.com/"><img src={FBicon} alt="Facebook" /></a>
           </div>
-          <p>&copy; 2024 All rights reserved.</p>
+          <p style={footerTextStyle} >&copy; 2024 All rights reserved.</p>
         </footer>
       </div>
     </Router>

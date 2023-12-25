@@ -1,6 +1,8 @@
 import React from 'react';
 import './about.css';
 import secondPic from '../../images/Picture2.jpg';
+import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
+import Portfolio from '../Portfolio/portfolio';
 
 const About = () => {
   return (
@@ -27,11 +29,15 @@ const About = () => {
             <h1 style={{ fontSize: '82px', position: 'absolute', top: '210px', fontWeight: 'normal' }}>ABOUT ME</h1>
             <img src={secondPic} alt="Second" style={{ width: '363px', height: '525px' }} />
           </div>
-          <a href="portfolio.jsx">
+          
+          <Link to="/portfolio">
             <div className="BigEllipse">
               <p style={{ color: 'black' }}>VIEW MY PORTFOLIO</p>
             </div>
-          </a>
+          </Link>
+          <Routes>
+            <Route path="/portfolio" element={<Portfolio />} />
+        </Routes>
         </main>
       </body>
     </div>
