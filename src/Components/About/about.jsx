@@ -1,7 +1,6 @@
 import React from 'react';
 import './about.css';
 import ImageSwitcher from "../ImageSwitcher/imageswitcher";
-import secondPic from '../../images/Picture2.jpg';
 import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 import Portfolio from '../Portfolio/portfolio';
 import p1 from "../../images/p1.jpeg";
