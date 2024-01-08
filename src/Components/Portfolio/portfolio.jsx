@@ -5,14 +5,10 @@ import "./portfolio.css";
 import ahlamgpt from "../../images/ahlamgpt.jpg"
 import ahlamgpt2 from "../../images/ahlamgpt2.png"
 import scms from "../../images/StudentCourseMS.jpg"
-import pingpong from "../../images/TTgame.jpg"
-import demola from "../../images/demola.png";
 import gantt from "../../images/gantt.png";
 import gantt2 from "../../images/gantt2.png";
 import ppvid from "../../images/PingPongvid.mp4"
 import developer from "../../images/P2.jpg";
-import P3 from "../../images/P3.jpg";
-import vit from "../../images/vit.jpg";
 import python from "../../images/pythonprog.jpg";
 import supermarket from "../../images/supermarket.jpg";
 import timeDisplay from "../../images/timeDisplay.jpeg";

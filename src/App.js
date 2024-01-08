@@ -38,7 +38,7 @@ const App = () => {
         </main>
         <footer>
           <div className="social-icons">
-            <a href="https://www.linkedin.com/in/ahlam-banu-2208401a3/"><img src={linkedInIcon} alt="LinkedIn" /></a>
+            <a href="www.linkedin.com/in/ahlam-fazlu-rahman"><img src={linkedInIcon} alt="LinkedIn" /></a>
             <a href="https://github.com/Ahlam-Banu"><img src={GHicon} alt="GitHub" /></a>
             <a href="mailto:ahlambanu.univ@gmail.com"><img src={emailIcon} alt="E-mail"/></a>
             <a href="https://www.facebook.com/"><img src={FBicon} alt="Facebook" /></a>

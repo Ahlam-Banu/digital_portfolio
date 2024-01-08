@@ -8,6 +8,8 @@ import p1 from "../../images/p1.jpeg";
 import p2 from "../../images/p2.jpeg";
 import p3 from "../../images/p3.jpeg";
 import p4 from "../../images/p4.jpeg";
+import demola from "../../images/demola.png";
+import vit from "../../images/vit.jpg";
 
 
 const About = () => {
@@ -16,6 +18,8 @@ const About = () => {
     p2,
     p3,
     p4,
+    demola,
+    vit,
   ];
 
   return (
