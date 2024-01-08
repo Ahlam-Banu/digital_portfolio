@@ -46,7 +46,7 @@ const Portfolio = () => {
 
   return (
     <main className="portfolio-content">
-      <h1 style={{ fontSize: "60px", textAlign: "center", paddingTop: "40px" }}>
+      <h1 style={{ fontSize: "50px", textAlign: "center", paddingTop: "40px" }}>
         PORTFOLIO
       </h1>
 
@@ -54,8 +54,8 @@ const Portfolio = () => {
         src={developer}
         alt="Picture 2"
         style={{
-          width: "270px",
-          height: "355px",
+          width: "240px",
+          height: "320px",
           position: "absolute",
           right: "150px",
           top: "-5px",
@@ -69,7 +69,7 @@ const Portfolio = () => {
       </div>
       <h2
         style={{
-          fontSize: "30px",
+          fontSize: "26px",
           position: "absolute",
           left: "670px",
           top: "370px",
@@ -79,7 +79,7 @@ const Portfolio = () => {
       </h2>
       <p
         style={{
-          fontSize: "23px",
+          fontSize: "22px",
           position: "absolute",
           left: "680px",
           top: "430px",
@@ -109,7 +109,7 @@ const Portfolio = () => {
       </div>
       <h2
         style={{
-          fontSize: "30px",
+          fontSize: "26px",
           position: "absolute",
           left: "50px",
           top: "785px",
@@ -119,7 +119,7 @@ const Portfolio = () => {
       </h2>
       <p
         style={{
-          fontSize: "23px",
+          fontSize: "22px",
           position: "absolute",
           left: "60px",
           top: "845px",
@@ -149,7 +149,7 @@ const Portfolio = () => {
 
       <h2
         style={{
-          fontSize: "30px",
+          fontSize: "26px",
           position: "absolute",
           left: "690px",
           top: "1190px",
@@ -159,7 +159,7 @@ const Portfolio = () => {
       </h2>
       <p
         style={{
-          fontSize: "23px",
+          fontSize: "22px",
           position: "absolute",
           left: "700px",
           top: "1245px",
@@ -185,7 +185,7 @@ const Portfolio = () => {
 
       <h2
         style={{
-          fontSize: "30px",
+          fontSize: "26px",
           position: "absolute",
           left: "50px",
           top: "1550px",
@@ -195,7 +195,7 @@ const Portfolio = () => {
       </h2>
       <p
         style={{
-          fontSize: "23px",
+          fontSize: "22px",
           position: "absolute",
           left: "60px",
           top: "1600px",
@@ -226,7 +226,7 @@ const Portfolio = () => {
       </div>
       <h2
         style={{
-          fontSize: "30px",
+          fontSize: "26px",
           position: "absolute",
           left: "690px",
           top: "1995px",
@@ -236,7 +236,7 @@ const Portfolio = () => {
         </h2>
       <p
         style={{
-          fontSize: "23px",
+          fontSize: "22px",
           position: "absolute",
           left: "690px",
           top: "2045px",
@@ -259,7 +259,7 @@ const Portfolio = () => {
       </div>
       <h2
         style={{
-          fontSize: "30px",
+          fontSize: "26px",
           position: "absolute",
           left: "50px",
           top: "2450px",
@@ -269,7 +269,7 @@ const Portfolio = () => {
         </h2>
       <p
         style={{
-          fontSize: "23px",
+          fontSize: "22px",
           position: "absolute",
           left: "50px",
           top: "2505px",
@@ -296,7 +296,7 @@ const Portfolio = () => {
       />
       <h2
         style={{
-          fontSize: "30px",
+          fontSize: "26px",
           position: "absolute",
           left: "640px",
           top: "2800px",
@@ -306,7 +306,7 @@ const Portfolio = () => {
       </h2>
       <p
         style={{
-          fontSize: "23px",
+          fontSize: "22px",
           position: "absolute",
           left: "650px",
           top: "2850px",

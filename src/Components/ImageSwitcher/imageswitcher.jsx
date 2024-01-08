@@ -19,7 +19,7 @@ const ImageSwitcher = ({ images }) => {
       <img
         src={images[currentImage]}
         alt={`Image ${currentImage}`}
-        style={{ width: "520px", height: "400px" }}
+        style={{ width: "450px", height: "350px" }}
       />
     </div>
   );
