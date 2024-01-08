@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Routes, Route, Navigate } from 'react-router-dom';
 import About from './Components/About/about'
 import Home from './Components/Home/home'
 import Portfolio from './Components/Portfolio/portfolio';
@@ -31,14 +31,15 @@ const App = () => {
         </header>
         <main>
           <Routes>
-            <Route path="/home" exact element={<Home />} /> {/* Wrap Route inside Routes */}
+            <Route path="/" element={<Navigate to="/home" />} />
+            <Route path="/home" exact element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
           </Routes>
         </main>
         <footer>
           <div className="social-icons">
-            <a href="www.linkedin.com/in/ahlam-fazlu-rahman"><img src={linkedInIcon} alt="LinkedIn" /></a>
+            <a href="https://www.linkedin.com/in/ahlam-fazlu-rahman"><img src={linkedInIcon} alt="LinkedIn" /></a>
             <a href="https://github.com/Ahlam-Banu"><img src={GHicon} alt="GitHub" /></a>
             <a href="mailto:ahlambanu.univ@gmail.com"><img src={emailIcon} alt="E-mail"/></a>
             <a href="https://www.facebook.com/"><img src={FBicon} alt="Facebook" /></a>
