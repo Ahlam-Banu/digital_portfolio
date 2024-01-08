@@ -8,7 +8,7 @@ import linkedInIcon from './icons/linkedin.png';
 import FBicon from './icons/facebook.png';
 import emailIcon from './icons/email.png';
 import GHicon from './icons/github.png';
-import CV from './docs/CV_Ahlam.pdf';
+import CV from './docs/Ahlam_CV_jan2024.pdf';
 
 const App = () => {
   const footerTextStyle = {
