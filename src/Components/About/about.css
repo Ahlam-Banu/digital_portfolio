@@ -1,96 +1,98 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #FFFFFF;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+  font-size: 16px; /* Default font size for the body */
+}
 
-  header {
-    color: black;
-    padding: 5px;
-  }
+header {
+  color: black;
+  padding: 0.3125em; /* Adjusted padding using em */
+}
 
-  h1 {
-    font-family: "Pacifico, 'Segoe UI', monospace";
-    text-align: center;
-  }
+h1 {
+  font-family: "Pacifico, 'Segoe UI', monospace";
+  text-align: center;
+  font-size: 2em; /* Adjusted font size using em */
+}
 
-  .SmallEllipse {
-    position: absolute;
-    left: 55px;
-    top: 100px;
-    width: 100px;
-    height: 95px;
-    border-radius: 50%;
-    background-color: #7E5421A1;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-  }
+.SmallEllipse {
+  position: absolute;
+  left: 3.4375em; /* Adjusted left position using em */
+  top: 6.25em; /* Adjusted top position using em */
+  width: 6.25em; /* Adjusted width using em */
+  height: 5.9375em; /* Adjusted height using em */
+  border-radius: 50%;
+  background-color: #7E5421A1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .BigEllipse {
-    position: absolute;
-    right: 200px;
-    bottom: 110px;
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    border: 1px solid black;
-    display: flex;
-    align-items:center;
-    cursor: pointer;
-  }
+.BigEllipse {
+  position: absolute;
+  right: 12.5em; /* Adjusted right position using em */
+  bottom: 6.875em; /* Adjusted bottom position using em */
+  width: 10.625em; /* Adjusted width using em */
+  height: 10.625em; /* Adjusted height using em */
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
 
-  ul {
-    list-style: none;
-  }
+ul {
+  list-style: none;
+}
 
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  nav ul li {
-    display: inline;
-    margin-right: 15px;
-  }
+nav ul li {
+  display: inline;
+  margin-right: 0.9375em; /* Adjusted margin-right using em */
+}
 
-  nav ul li a {
-    color: black;
-    text-decoration: none;
-  }
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
 
-  nav ul li.right {
-    float: right;
-  }
+nav ul li.right {
+  float: right;
+}
 
-  nav ul li.underline {
-    text-decoration: underline;
-  }
+nav ul li.underline {
+  text-decoration: underline;
+}
 
-  main {
-    padding: 5px;
-  }
+main {
+  padding: 0.3125em; /* Adjusted padding using em */
+}
 
-  .center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .social-icons a {
-    margin-right:5px;
-    margin-top: 15px;
-    margin-left:5px;
-  }
+.social-icons a {
+  margin-right: 0.3125em; /* Adjusted margin-right using em */
+  margin-top: 0.9375em; /* Adjusted margin-top using em */
+  margin-left: 0.3125em; /* Adjusted margin-left using em */
+}
 
-  footer {
-    color: black;
-    text-align: center;
-    flex-shrink: 0;
-  }
+footer {
+  color: black;
+  text-align: center;
+  flex-shrink: 0;
+}
